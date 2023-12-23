@@ -1,0 +1,73 @@
+:root {
+  --ht: 200px;
+  --outHt: 600px;
+}
+
+body {
+  background-color: #548687;
+  text-align: center;
+}
+
+.head {
+  color: red;
+}
+
+#heading {
+  color: red;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: gray;
+  border-style: solid;
+  height: var(--outHt, 1000px);
+  width: var(--outHt, 1000px);
+  align-items: center;
+}
+
+.block1,
+.block3,
+.block5,
+.block7 {
+  height: var(--ht);
+  width: var(--ht);
+  color: black;
+  background-color: white;
+  font: 20px;
+}
+
+.block0,
+.block2,
+.block4,
+.block6,
+.block8 {
+  height: var(--ht);
+  width: var(--ht);
+  color: white;
+  background-color: rgb(7, 7, 7);
+}
+
+.block1,
+.block3,
+.block5,
+.block7,
+.block0,
+.block2,
+.block4,
+.block6,
+.block8 {
+  text-align: center;
+  line-height: 200px;
+  font-size: 100px;
+}
+
+.winner {
+  color: green;
+  text-align: center;
+  line-height: 200px;
+  font-size: 100px;
+  height: var(--ht);
+  width: var(--ht);
+  background-color: purple;
+}
